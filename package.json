@@ -1,0 +1,22 @@
+{
+  "name": "learnjest",
+  "version": "1.0.0",
+  "description": "Jest学习， TDD、BDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/close-7/learnJest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/close-7/learnJest/issues"
+  },
+  "homepage": "https://github.com/close-7/learnJest#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
