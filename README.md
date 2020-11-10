@@ -58,6 +58,24 @@ lesson4
 + toMatch 作为匹配器 判断期望值是包含字符
 
 
+## Jest命令行工具  
+
+```
+Watch Usage
+ › Press f to run only failed tests.
+ › Press o to only run tests related to changed files.
+ › Press p to filter by a filename regex pattern.
+ › Press t to filter by a test name regex pattern.
+ › Press q to quit watch mode.
+ › Press Enter to trigger a test run.
+
+```
++ 按f后，jest测试不会再测试已通过的测试用例。再次按f退出这个模式  
++ 按o后，只会测试和当前被改变文件相关的测试用例
++ 按t后，根据测试用例的名称，只测试名称一致的测试用例
++ 按p后，根据文件名称，只测试该文件下的测试用例
++ 按Enter后，重新运行测试
+
 
 
 
