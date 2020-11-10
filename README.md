@@ -77,6 +77,10 @@ Watch Usage
 + 按Enter后，重新运行测试
 
 
+## jest中异步代码测试
+参考lesson6
+
+
 
 
 
