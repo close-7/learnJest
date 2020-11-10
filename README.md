@@ -31,6 +31,7 @@ Jest的优势：
 ## 暴露jest配置
 `npx jest --init`  页面生成jest.config.js配置文件  
 `npx jest --coverage` 生成测试覆盖率说明 以及coverage文件夹  
+`"test": "jest --watchAll",` 监听所有测试文件的变化
 
 ## bable转化
 将es6模块语法转化为commonjs模块规范，使jest能在node下运行 ` npm install @babel/core@7.4.5 @babel/preset-env@7.4.5 -D`  
@@ -42,4 +43,25 @@ Jest的优势：
     4. 取 .babelrc配置
     5. 在运行测试之前，结合babel配置，先把你的代码做一次转化
     6. 运行转化过的测试用例代码
+
+
+## Jest中的匹配器
+lesson4  
++ toBe 就是一个匹配器 matchers 相当于 object.is ===
++ toEqual 作为匹配器 只匹配内容是否相等  相当于 ==
++ toBeNull 作为匹配器 将期待值与null比较  判断是否为空 
++ toBeUndefined 作为匹配器
++ toBeDefined 作为匹配器 期望值被定义过
++ toBeTruthy 作为匹配器 判断期望值是否为真  Boolean判断
++ toBeFalsy 作为匹配器 判断期望值是否为假  Boolean判断
++ not 判断不是 即通过
++ toMatch 作为匹配器 判断期望值是包含字符
+
+
+
+
+
+
+
+
 
