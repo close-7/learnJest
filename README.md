@@ -27,3 +27,19 @@ Jest的优势：
 ### 单元测试、集成测试
 + 单元测试：测试一个模块  
 + 集成测试：测试多个模块
+
+## 暴露jest配置
+`npx jest --init`  页面生成jest.config.js配置文件  
+`npx jest --coverage` 生成测试覆盖率说明 以及coverage文件夹  
+
+## bable转化
+将es6模块语法转化为commonjs模块规范，使jest能在node下运行 ` npm install @babel/core@7.4.5 @babel/preset-env@7.4.5 -D`  
++ babel配置:.babelrc  
++ 原理：
+    1. npm run jest 执行的时候
+    2. jest（babel-jest)
+    3. babel-core 
+    4. 取 .babelrc配置
+    5. 在运行测试之前，结合babel配置，先把你的代码做一次转化
+    6. 运行转化过的测试用例代码
+
