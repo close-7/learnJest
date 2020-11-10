@@ -111,6 +111,10 @@ Counter 测试所有相关代码
 参考lesson8
 
 
+## Snapshot 快照测试
++ 行内snapshot 安装 `npm install prettier`
++ 使用 toMatchInlineSnapshot()  将快照放入测试用例
+
 
 
 
