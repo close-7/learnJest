@@ -81,6 +81,30 @@ Watch Usage
 参考lesson6
 
 
+## jest中钩子函数
+参考lesson7
++ beforeAll() 会在所有调用的测试用例执行之前执行
++ afterAll() 等待所有的测试用例执行完后执行
++ beforeEach() 在每个测试用例执行前执行
++ afterEach() 在每个测试用例执行完后执行
+
+### describe('',()=>{})  分组
+```
+Counter 测试所有相关代码
+    测试增加相关的代码
+      √ 测试 Counter 中的 addOne 方法 (4ms)      √ 测试 Counter 中的 addTwo 方法 (2ms)
+    测试减少相关的代码
+      √ 测试 Counter 中的 minusOne 方法 (3ms)
+      √ 测试 Counter 中的 minusTwo 方法 (19ms)
+```
+
+
+## jest中钩子函数的作用域
+参考lesson7
++ describe()中的钩子函数，对内部的测试用例都有效
++ describe()嵌套describe()的情况下，先执行外部的钩子，再执行内部
++ test.only() 忽略其他测试用例，只检测自己
++ 测试准备代码一定要写到钩子函数中， describe()中的方法会在钩子函数执行前最先执行
 
 
 
