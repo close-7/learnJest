@@ -125,4 +125,7 @@ Counter 测试所有相关代码
 + jest.useFakeTimers(); jest.runAllTimers()
 
 
+## ES6中类的测试
+参考ES6
+
 
