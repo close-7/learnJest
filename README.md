@@ -120,4 +120,9 @@ Counter 测试所有相关代码
 + 异步函数用mock模拟，同步函数直接测试
 
 
+## mock timers
++ 模拟定时器相关操作
++ jest.useFakeTimers(); jest.runAllTimers()
+
+
 
