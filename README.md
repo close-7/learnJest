@@ -116,5 +116,8 @@ Counter 测试所有相关代码
 + 使用 toMatchInlineSnapshot()  将快照放入测试用例
 
 
+## mock 深入
++ 异步函数用mock模拟，同步函数直接测试
+
 
 
