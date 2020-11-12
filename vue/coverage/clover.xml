@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1605146881655" clover="3.2.0">
+  <project timestamp="1605146881655" name="All files">
+    <metrics statements="32" coveredstatements="26" conditionals="4" coveredconditionals="4" methods="16" coveredmethods="15" elements="52" coveredelements="45" complexity="0" loc="32" ncloc="32" packages="5" files="8" classes="8"/>
+    <package name="jest-vue">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="babel.config.js" path="C:\Users\钱妈妈H5\Desktop\project\TDDVUE\jest-vue\babel.config.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+      <file name="jest.config.js" path="C:\Users\钱妈妈H5\Desktop\project\TDDVUE\jest-vue\jest.config.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="jest-vue.src">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="App.vue" path="C:\Users\钱妈妈H5\Desktop\project\TDDVUE\jest-vue\src\App.vue">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+      <file name="main.js" path="C:\Users\钱妈妈H5\Desktop\project\TDDVUE\jest-vue\src\main.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="jest-vue.src.components">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+      <file name="Header.vue" path="C:\Users\钱妈妈H5\Desktop\project\TDDVUE\jest-vue\src\components\Header.vue">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="26" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+      <file name="UndoList.vue" path="C:\Users\钱妈妈H5\Desktop\project\TDDVUE\jest-vue\src\components\UndoList.vue">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="jest-vue.src.pages.TodoList">
+      <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8"/>
+      <file name="TodoList.vue" path="C:\Users\钱妈妈H5\Desktop\project\TDDVUE\jest-vue\src\pages\TodoList\TodoList.vue">
+        <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="24" count="9" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="jest-vue.src.utils">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="testUtils.js" path="C:\Users\钱妈妈H5\Desktop\project\TDDVUE\jest-vue\src\utils\testUtils.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
